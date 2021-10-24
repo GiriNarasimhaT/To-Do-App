@@ -1,0 +1,45 @@
+.reset {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FC9E21;
+    flex-direction: column;
+  }
+  .reset__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 15px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .reset__container {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      border-radius: 15px;
+      width: 280px;
+    }   
+  }
+
+
+  .reset__textBox { 
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  }
+  .reset__btn {
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+  }
+  .reset div {
+    margin-top: 7px;
+  }

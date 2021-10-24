@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.dashboard {
+    min-height: 750px;
+    align-items: center;
+    justify-content: center;
+    background-color: #FC9E21;
+  }
+  .dashboard__container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+  }
+  .dashboard__btn {
+    padding: 10px;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+  }
+
+  .dashboard__btn:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .dashboard__btn_add {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+  }
+
+  .dashboard__btn_add:hover {
+    color: black;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .dashboard_list{
+    padding: 14px;
+    border-radius: 25px;
+    background: rgb(238, 149, 32);
+  }
+
+  h1{
+    text-align: center;
+    font-size:xxx-large;
+    border-radius: 15px;
+  }
+
+  form{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.226);
+    border-radius: 15px;
+  }
+
+  p.MuiTypography-root.MuiListItemText-secondary.MuiTypography-body2.MuiTypography-colorTextSecondary.MuiTypography-displayBlock {
+    margin-top: 5px;
+    border-radius: 15px;
+    padding-left: 10px;
+    color: black;
+  }
+
+  li.MuiListItem-root.MuiListItem-gutters {
+    border-bottom: 0px;
+  }
+
+  button.MuiButtonBase-root.MuiButton-root.MuiButton-text:hover {
+    background-color: transparent;
+  }
+
+  span.MuiTouchRipple-root {
+    padding: 0px;
+    border-radius: 50px;
+    display: none;
+  }
+
+  span.MuiButton-label {
+    border-radius: 50px;
+    background-color: white;
+  }
+  span.MuiButton-label:hover {
+    background-color: rgb(0, 0, 0);
+  }
+  span.MuiTypography-root.MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock {
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+  li.MuiListItem-root.MuiListItem-gutters {
+    padding: 0px;
+  }
+
+  .MuiListItemText-root.MuiListItemText-multiline{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
