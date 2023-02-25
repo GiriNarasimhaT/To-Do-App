@@ -1,13 +1,13 @@
 # To-Do App
 
-This App is live, Visit : https://todo-app-8159a.web.app/
+Live at : https://todo-app-8159a.web.app/
 
-To Run this app in your Local Server,
+To Run this app locally,
 1. Firstly, Clone this Repository.
 2. Then in the root folder open **Command prompt** or **Terminal**,
    * Install Required Packages:
      * `npm install react-scripts --save` or 
-     * `yarn add react-scripts` (Recommended)
+     * `yarn add react-scripts`
 
 3. Then, Use `npm start` or `yarn start` to run the app.
 
